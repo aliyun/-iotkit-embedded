@@ -1,5 +1,5 @@
 CONFIG_ENV_CFLAGS   += \
-    -DBOARD_ESP8266 -u call_user_start \
+    -DBOARD_ESP8266 -ucall_user_start \
     -fno-inline-functions \
     -ffunction-sections \
     -fdata-sections \

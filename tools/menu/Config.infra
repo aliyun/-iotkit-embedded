@@ -1,5 +1,5 @@
 config PLATFORM_HAS_MBEDTLS
-    bool "PLATFROM_HAS_MBEDTLS"
+    bool "PLATFORM_HAS_MBEDTLS"
     default y if SUPPORT_TLS
     help
         Tell if you have pre-integrated mbedtls library on target device
